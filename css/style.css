@@ -1,0 +1,37 @@
+/* reeset css */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Tajawal', sans-serif;
+    font-family: 'Ysabeau Office', sans-serif;
+}
+
+header{
+    background-color: orange;
+    padding: 0 2rem;
+}
+
+.headerBox{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.mioLogo{
+    height: 8rem;
+}
+
+header a{
+    text-decoration: none;   
+    color: black;
+    font-weight: 600;
+    margin-left: 1rem;
+    padding: 0.6rem;
+    border: 1px solid black;
+}
+
+header a:hover{
+    background-color: goldenrod;
+}
